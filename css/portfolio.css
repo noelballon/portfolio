@@ -1,0 +1,115 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 0.3125em 0;
+    text-align: center;
+}
+
+.portfolio-section ul a {
+    text-align: center;
+    display: block;
+    padding: 5px 0;
+}
+
+.portfolio-section a span {
+    display: inline-block;
+    margin: 0.325em 0;
+}
+
+.about-section li {
+    list-style: disc;
+    text-align: left;
+    margin-left: 1.3125em;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+    text-align: center;
+}
+
+.masthead {
+    background-image: url('http://i.imgur.com/Ug7Z5bf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #00aff0;
+    padding: 6em 0;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Fanwood", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+  .masthead {
+        padding: 3em 0;
+    }
+  .resize_50 {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.introduction-section,
+.portfolio-section,
+.thinkful-projects,
+.about-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 38em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.introduction-section > p,
+.portfolio-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    /* Typography Declarations */
+    font-family: "Quattrocento Sans", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content-footer {
+    background-color: #B6DFF0;
+    padding: 10px 0;
+}
+
+.content-footer > ul {
+    padding: 0;
+    margin: 0;
+}
