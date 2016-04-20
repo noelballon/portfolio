@@ -73,6 +73,10 @@ ul li {
     width: 50%;
     height: 50%;
   }
+  .about-section h1,
+  .portfolio-section h1 {
+    text-align: center;
+  }
 }
 
 .introduction-section,
